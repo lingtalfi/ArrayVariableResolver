@@ -96,13 +96,9 @@ class ArrayVariableResolverUtil
      * Sets the firstSymbol.
      *
      * @param string $firstSymbol
-     * @throws ArrayVariableResolverException
      */
     public function setFirstSymbol(string $firstSymbol)
     {
-        if (strlen($firstSymbol) !== 1) {
-            throw new ArrayVariableResolverException("The first symbol must have length 1.");
-        }
         $this->firstSymbol = $firstSymbol;
     }
 
@@ -110,13 +106,9 @@ class ArrayVariableResolverUtil
      * Sets the openingBracket.
      *
      * @param string $openingBracket
-     * @throws ArrayVariableResolverException
      */
     public function setOpeningBracket(string $openingBracket)
     {
-        if (strlen($openingBracket) !== 1) {
-            throw new ArrayVariableResolverException("The opening bracket symbol must have length 1.");
-        }
         $this->openingBracket = $openingBracket;
     }
 
@@ -124,13 +116,9 @@ class ArrayVariableResolverUtil
      * Sets the closingBracket.
      *
      * @param string $closingBracket
-     * @throws ArrayVariableResolverException
      */
     public function setClosingBracket(string $closingBracket)
     {
-        if (strlen($closingBracket) !== 1) {
-            throw new ArrayVariableResolverException("The closing bracket symbol must have length 1.");
-        }
         $this->closingBracket = $closingBracket;
     }
 

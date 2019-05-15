@@ -36,6 +36,10 @@ Summary
 History Log
 =============
 
+- 1.1.0 -- 2019-05-15
+
+    - fix ArrayVariableResolverUtil accepting only one char length symbols
+    
 - 1.0.1 -- 2019-05-15
 
     - add documentation examples

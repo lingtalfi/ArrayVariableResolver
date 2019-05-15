@@ -41,11 +41,6 @@ Return values
 Returns void.
 
 
-Exceptions thrown
-================
-
-- [ArrayVariableResolverException](https://github.com/lingtalfi/ArrayVariableResolver/blob/master/doc/api/Ling/ArrayVariableResolver/Exception/ArrayVariableResolverException.md).&nbsp;
-
 
 
 
