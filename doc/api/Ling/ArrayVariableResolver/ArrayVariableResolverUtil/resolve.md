@@ -56,6 +56,11 @@ Exceptions thrown
 
 
 
+Source Code
+===========
+See the source code for method [ArrayVariableResolverUtil::resolve](https://github.com/lingtalfi/ArrayVariableResolver/blob/master/ArrayVariableResolverUtil.php#L137-L173)
+
+
 See Also
 ================
 
