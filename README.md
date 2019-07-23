@@ -36,6 +36,10 @@ Summary
 History Log
 =============
 
+- 1.1.2 -- 2019-07-23
+
+    - fix ArrayVariableResolverUtil->resolve not accepting null values as inline replacement 
+    
 - 1.1.1 -- 2019-07-18
 
     - update docTools documentation, add links to source code for classes and methods
